@@ -23,8 +23,8 @@ class MidgarRedisCache extends Plugin {
    * 
    * Add the redis cache store
    */
-  async _beforeCacheInit({ cache }) {
-    await cache.addStore('redis', (key) => {
+  async _beforeCacheInit({ cacheService }) {
+    await cacheService.addStore('redis', (key) => {
       return this._getStoreConfig(key)
     })
   }

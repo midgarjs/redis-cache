@@ -1,15 +1,16 @@
 {
   "name": "@midgar/redis-cache",
-  "version": "1.0.0-alpha.1.0",
+  "version": "1.0.0-alpha.1.2",
   "description": "A Midgar plugin to add redis storage to @midgar/cache plugin",
   "scripts": {
     "postinstall": "midgar-add-plugin @midgar/redis-cache"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/midgarjs/redis-cache.git"
   },
   "dependencies": {
-    "@midgar/cache": "^1.0.0-alpha.1.3",
+    "@midgar/cache": "^1.0.0-alpha.1.5",
     "cache-manager-redis-store": "^1.5.0"
   },
   "devDependencies": {},
