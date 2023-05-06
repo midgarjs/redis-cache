@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@midgar/cache": "^1.0.0-alpha.1.5",
-    "cache-manager-redis-store": "^1.5.0"
+    "cache-manager-redis-store": "^3.0.1"
   },
   "devDependencies": {},
   "author": "Metais Fabien",
